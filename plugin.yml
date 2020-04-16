@@ -1,0 +1,10 @@
+name: _KitSystem
+main: garusnetwork.gnkit.Main
+version: 1.0.1
+author: Megadix
+description:  Plugin Kits desenvolvido por Megadix
+commands:
+    kit:
+        description: Comando de Kit
+    categoria:
+        description: Comando de categorias

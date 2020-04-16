@@ -1,0 +1,42 @@
+#As configuraçoes da base de dados
+MySQL:
+    Usuario: 'user'
+    Senha: 'senha'
+    Banco: 'db'
+    Ip: 'localhost'
+    Porta: '3306'
+Mensagems:
+    Categoria:
+        Prefix: " &6&lCATEGORIA "
+        SEM_PERM: "&cVoce nao tem permissao."
+        ALREADY_CONTAINS_ERROR: "&cEsta Categoria ja esta cadastrada."
+        SUCESS_CREATE: "&aCategoria criado com sucesso!"
+        SUCESS_DELETE: "&aCategoria deletado com sucesso!"
+        SUCESS_SET_ITEM: "&aItem setado com sucesso!"
+        SUCESS_SET_DISPLAYNAME: "&aDisplayname setado com sucesso!"
+        SUCESS_ADD_LORE: "&aLore adicionada com sucesso!"
+        NUMBER_FORMAT_ERROR: "&cO Segundo valor deve ser um Numero."
+        ERROR_LORE_LINE_NOEXIST: "&cEste numero de linha nao existe na lore do item."
+        NO_CONTAINS_ERROR: "&cEsta categoria nao existe."
+        COMMAND_ERROR: "&cUse; /kit <nome>"
+    Kit:
+        Prefix: " &6&lKIT "
+        SEM_PERM: "&cVoce nao tem permissao."
+        ALREADY_CONTAINS_ERROR: "&cEste kit ja esta cadastrado."
+        SUCESS_CREATE: "&aKit criado com sucesso!"
+        SUCESS_DELETE: "&aKit deletado com sucesso!"
+        SUCESS_SET_ITEM: "&aItem setado com sucesso!"
+        SUCESS_SET_DISPLAYNAME: "&aDisplayname setado com sucesso!"
+        SUCESS_SET_CATEGORIA: "&aCategoria setada com sucesso!"
+        SUCESS_ADD_ITEM: "&aItem adicionado com sucesso ao Kit!"
+        SUCESS_SET_INVENTORY: "&aInventory setado com sucesso!"
+        SUCESS_RECEIVE_KIT: "&aKit recebido com sucesso!"
+        SUCESS_SET_COOLDOWN: "&aCooldown setado com sucesso!"
+        SUCESS_REMOVE_LORE: "&aLinha da Lore removida com sucesso!"
+        SUCESS_ADD_LORE: "&aLinha adicionada com sucesso a lore do item!"
+        NUMBER_FORMAT_ERROR: "&cO Segundo valor deve ser um Numero."
+        NO_CONTAINS_ERROR: "&cEste kit nao existe."
+        ERROR_ALREADY_RECEIVED: "&cVoce ja recebeu este kit, aguarde!"
+        ERROR_LORE_LINE_NOEXIST: "&cEste numero de linha nao existe na lore do item"
+        ERROR_INVENTORY_FULL: "&cSeu inventario esta cheio de mais para receber o kit!"
+        COMMAND_ERROR: "&cUse; /kit <nome>"
